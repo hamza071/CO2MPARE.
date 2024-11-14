@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main (String [] args) {
+        Scanner scanner = new Scanner (System.in);
+        // Vervang de puntjes hieronder door de juiste code.
+
+        System.out.println("Welk product wilt u kopen?");
+
+        String product = scanner.next();
+
+        System.out.println("Hoeveel exemplaren wilt u?");
+
+        int aantal = scanner.nextInt();
+
+        System.out.println("Hier heeft u");
+
+        System.out.println(aantal);
+
+        System.out.println("x");
+
+        System.out.println(product);
+    }
+}
